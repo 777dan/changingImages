@@ -1,0 +1,20 @@
+body,
+html {
+    margin: 0;
+    height: 4000px;
+    background-color: #8dd9d8;
+    transition: all 1s;
+}
+
+#din {
+    position: fixed;
+    background-image: url('./images/img1.jpg');
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: all 1s;
+}
